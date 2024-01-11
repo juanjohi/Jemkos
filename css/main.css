@@ -34,7 +34,7 @@ li {
   position: relative;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.226)),
-    url("/assets/tiles.jpg") center/cover no-repeat;
+    url("../assets/tiles.jpg") center/cover no-repeat;
   align-items: center;
   text-align: center;
   background-attachment: fixed;
