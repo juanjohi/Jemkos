@@ -105,7 +105,7 @@ li {
 
 
 
-.navbar {
+.navabar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -178,7 +178,7 @@ li {
 }
 
 @media screen and (max-width: 768px) {
-  .navbar {
+  .navabar {
     position: fixed;
   }
 
