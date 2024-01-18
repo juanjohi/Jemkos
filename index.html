@@ -18,20 +18,41 @@
 
 <body>
 
-    <nav class="navabar">
-        <div class="logo">JEMKOS</div>
-        <div class="menu-toggle"><i class="fas fa-bars" style="color: #ffffff;"></i></div>
-        <ul class="nav-list">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="logo" href="home">JEMKOS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+                aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
 
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </nav>
-
-    <section class="hero-section" id="home">
+    <!-- <section class="hero-section" id="home">
         <div class="overlay">
             <div class="hero-content ">
                 <h1 class="wow animate__animated animate__fadeInUp animate__slow">JEMKOS MAZERAS</h1>
@@ -49,6 +70,28 @@
                 </div>
 
             </div>
+        </div>
+    </section> -->
+    <section class="hero-section">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="./assets/mazera 9.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+                        height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">JEMKOS MAZERAS</h1>
+                    <p class="lead">Jemkos Mazeras. is a Kenyan-based company specializing in the sourcing, sale, finishing, packaging and supply of
+                    exquisite natural stones and custom-cut tiles worldwide ranging from Mazeras, Yellow stone, Blue stone, Grey/Green
+                    stone, Red stone, Coral stone, Limestone, Glitter stone, Khaki stone, Marble, Granite and Quartz.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        
+                    <a href="#more"><button type="button"
+                            class="btn btn-outline-secondary btn-lg px-4 me-md-2 fw-bold text-light text-decoration-none">FAQ'S</button></a>
+                    </div>
+                </div>
+            </div>
+           
         </div>
     </section>
 
@@ -110,7 +153,7 @@
                     </div>
                 </div>
 
-                <div class="column">
+                <!-- <div class="column">
                     <div class="callout wow animate__animated animate__fadeInLeft animate__slow">
                         <p><video width="350" height="303" controls>
                                 <source src="assets/vid1.mp4" type="video/mp4" loading="lazy">
@@ -128,7 +171,7 @@
                         <p class="lead">Demonstration</p>
                         <p class="subheader">Used for a Garage floor</p>
                     </div>
-                </div>
+                </div> -->
 
 
             </div>
