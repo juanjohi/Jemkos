@@ -31,7 +31,6 @@ li {
 }
 
 .hero {
-  /* margin: 5rem 0; */
   background: rgb(0, 0, 0);
   background: linear-gradient(270deg, rgba(0, 0, 0, 0.4542191876750701) 0%, rgba(255, 196, 0, 0.4458158263305322) 40%, rgba(167, 136, 40, 1) 100%);
 }
@@ -86,7 +85,7 @@ li {
 } */
 
 .navbar {
-  padding: 15px 0;
+  /* padding: 15px 0; */
   background: rgb(0, 0, 0);
   background: linear-gradient(93deg, rgba(0, 0, 0, 0.4542191876750701) 0%, rgba(255, 196, 0, 0.4458158263305322) 40%, rgba(167, 136, 40, 1) 100%);
 }
@@ -279,15 +278,32 @@ a {
 }
 
 .btn {
-  border: 2px solid #000;
-  border-radius: 5px;
+  border: none;
+
   display: block;
-  /* margin: 1rem auto; */
+
   font-size: 0.9rem;
   text-transform: uppercase;
   padding: 0.6rem 0;
   width: 100px;
   transition: all 0.5s ease-in-out;
+}
+
+.btn-submit {
+  border: 2px solid #000;
+  border-radius: 25px;
+  display: block;
+  /* margin: 1rem auto; */
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding: 0.6rem 0;
+  width: 180px;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-submit:hover {
+  background: #000000;
+  color: #ffee00;
 }
 
 .btn:hover {
